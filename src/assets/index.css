@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        cursor: pointer;
+        background-color: theme('colors.neutral.100');
+        border-radius: theme('borderRadius.lg');
+        padding: theme('padding.2');
+        padding-left: theme('padding.5');
+        padding-right: theme('padding.5');
+        margin: theme('margin.2');
+    }
+
+    .card:hover {
+        background-color: theme('colors.neutral.200');
+    }
+}
+
